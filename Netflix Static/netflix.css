@@ -1,0 +1,322 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: #ffff;
+}
+.root{
+    background-size: cover;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(12.jpg);
+    background-position: center;
+
+    
+}
+
+.navbar{
+    padding-top: 1%;    
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img-logo{
+    width: 13%;
+
+}
+.btn-sign-in{
+    padding: 12px;
+    padding-right:20px ;
+    padding-left: 20px;
+    background-color: #e50914;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    
+
+}
+.btn-sign-in:hover{
+    background-color:#b40710 ;
+}
+#sel-op0{
+    padding:14px;
+    color: #ffff;
+    background: rgba(0,0,0,0.4);
+    border-radius: 4px;
+
+}
+.lang-sel1{
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif  ;
+    margin-left: 70%;
+}
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-title-container{
+    width: 50%;
+    text-align: center;
+    color: #ffff;
+}
+.main-title{
+    line-height: 1.1 ;
+    font-size: 4em;
+    margin-bottom: 14px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.main-subtitle{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.small-title{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+
+}
+.main-email-container{
+    width: 55%;
+    height: fit-content;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-email-container-input{
+    outline: none;
+    border:none;
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffff;
+    font-size: 1.4em;
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif ;
+    text-align: center;
+}
+.btn-get-started:hover{
+    background-color:#b40710 ;
+
+}
+
+.card-0,
+.card-1,
+.card-2,
+.card-3{
+    border-top: 8px rgba(69,69,69)solid;
+    padding: 50px;
+    color: #ffff;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.card-0{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px ;
+
+
+}
+.desc-0{
+    padding-left: 100px;
+
+}
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px ;
+}
+.desc-1{
+    padding-left: 80px;
+}
+.style-cards h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+
+
+}
+.style-cards h3{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.card-1 video{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    padding-left: 5%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+.card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px ;
+}
+.desc-2{
+    padding-left: 100px;
+}
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px ;
+}
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}.card-3 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+}
+.card-3 video{
+    position: relative;
+    top: -67px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.faq{
+    text-align: center;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.faq h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+
+
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+.questions li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    text-align: left;
+    width: 50%;
+
+}
+.faq p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+
+}
+.input{
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.input input{
+  width: 400px;
+  height: 3rem;
+}
+.input button{
+    cursor: pointer;
+    padding: 14px 32px;
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffff;
+    font-size: 1.4em;
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif ;
+    text-align: center;
+
+}
+.input button:hover{
+    background-color: #b40710;
+}
+.footer{
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif ;
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+.footer,
+.footer a{
+    color: #999;
+    font-size: 0.9rem;
+
+}
+.footer p{
+    margin-bottom: 1.5rem;
+
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+
+}
+.footer li{
+    line-height: 2.4;
+}
+.lang-sel2{
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif  ;
+    margin-left: 250px;
+
+}
+#ni{
+    color: #827d7d;
+    font-size: smaller;
+}
+#sel-op{
+    padding:14px;
+    color: #ffff;
+    background: rgba(0,0,0,0.4);
+    border-radius: 4px;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
